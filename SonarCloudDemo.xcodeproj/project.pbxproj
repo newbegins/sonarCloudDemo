@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F266E5B524F3B66400C4D54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E5B424F3B66400C4D54A /* AppDelegate.swift */; };
+		F266E5B724F3B66400C4D54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E5B624F3B66400C4D54A /* SceneDelegate.swift */; };
+		F266E5B924F3B66400C4D54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E5B824F3B66400C4D54A /* ViewController.swift */; };
+		F266E5BC24F3B66400C4D54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F266E5BA24F3B66400C4D54A /* Main.storyboard */; };
+		F266E5BE24F3B66600C4D54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F266E5BD24F3B66600C4D54A /* Assets.xcassets */; };
+		F266E5C124F3B66600C4D54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F266E5BF24F3B66600C4D54A /* LaunchScreen.storyboard */; };
+		F266E5CC24F3B66600C4D54A /* SonarCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E5CB24F3B66600C4D54A /* SonarCloudDemoTests.swift */; };
+		F266E5D724F3B66600C4D54A /* SonarCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266E5D624F3B66600C4D54A /* SonarCloudDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F266E5C824F3B66600C4D54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F266E5A924F3B66400C4D54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F266E5B024F3B66400C4D54A;
+			remoteInfo = SonarCloudDemo;
+		};
+		F266E5D324F3B66600C4D54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F266E5A924F3B66400C4D54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F266E5B024F3B66400C4D54A;
+			remoteInfo = SonarCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F266E5B124F3B66400C4D54A /* SonarCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonarCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F266E5B424F3B66400C4D54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F266E5B624F3B66400C4D54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F266E5B824F3B66400C4D54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F266E5BB24F3B66400C4D54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F266E5BD24F3B66600C4D54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F266E5C024F3B66600C4D54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F266E5C224F3B66600C4D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F266E5C724F3B66600C4D54A /* SonarCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F266E5CB24F3B66600C4D54A /* SonarCloudDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCloudDemoTests.swift; sourceTree = "<group>"; };
+		F266E5CD24F3B66600C4D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F266E5D224F3B66600C4D54A /* SonarCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F266E5D624F3B66600C4D54A /* SonarCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarCloudDemoUITests.swift; sourceTree = "<group>"; };
+		F266E5D824F3B66600C4D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F266E5AE24F3B66400C4D54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5C424F3B66600C4D54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5CF24F3B66600C4D54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F266E5A824F3B66400C4D54A = {
+			isa = PBXGroup;
+			children = (
+				F266E5B324F3B66400C4D54A /* SonarCloudDemo */,
+				F266E5CA24F3B66600C4D54A /* SonarCloudDemoTests */,
+				F266E5D524F3B66600C4D54A /* SonarCloudDemoUITests */,
+				F266E5B224F3B66400C4D54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F266E5B224F3B66400C4D54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F266E5B124F3B66400C4D54A /* SonarCloudDemo.app */,
+				F266E5C724F3B66600C4D54A /* SonarCloudDemoTests.xctest */,
+				F266E5D224F3B66600C4D54A /* SonarCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F266E5B324F3B66400C4D54A /* SonarCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F266E5B424F3B66400C4D54A /* AppDelegate.swift */,
+				F266E5B624F3B66400C4D54A /* SceneDelegate.swift */,
+				F266E5B824F3B66400C4D54A /* ViewController.swift */,
+				F266E5BA24F3B66400C4D54A /* Main.storyboard */,
+				F266E5BD24F3B66600C4D54A /* Assets.xcassets */,
+				F266E5BF24F3B66600C4D54A /* LaunchScreen.storyboard */,
+				F266E5C224F3B66600C4D54A /* Info.plist */,
+			);
+			path = SonarCloudDemo;
+			sourceTree = "<group>";
+		};
+		F266E5CA24F3B66600C4D54A /* SonarCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F266E5CB24F3B66600C4D54A /* SonarCloudDemoTests.swift */,
+				F266E5CD24F3B66600C4D54A /* Info.plist */,
+			);
+			path = SonarCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		F266E5D524F3B66600C4D54A /* SonarCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F266E5D624F3B66600C4D54A /* SonarCloudDemoUITests.swift */,
+				F266E5D824F3B66600C4D54A /* Info.plist */,
+			);
+			path = SonarCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F266E5B024F3B66400C4D54A /* SonarCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F266E5DB24F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemo" */;
+			buildPhases = (
+				F266E5AD24F3B66400C4D54A /* Sources */,
+				F266E5AE24F3B66400C4D54A /* Frameworks */,
+				F266E5AF24F3B66400C4D54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonarCloudDemo;
+			productName = SonarCloudDemo;
+			productReference = F266E5B124F3B66400C4D54A /* SonarCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F266E5C624F3B66600C4D54A /* SonarCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F266E5DE24F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemoTests" */;
+			buildPhases = (
+				F266E5C324F3B66600C4D54A /* Sources */,
+				F266E5C424F3B66600C4D54A /* Frameworks */,
+				F266E5C524F3B66600C4D54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F266E5C924F3B66600C4D54A /* PBXTargetDependency */,
+			);
+			name = SonarCloudDemoTests;
+			productName = SonarCloudDemoTests;
+			productReference = F266E5C724F3B66600C4D54A /* SonarCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F266E5D124F3B66600C4D54A /* SonarCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F266E5E124F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemoUITests" */;
+			buildPhases = (
+				F266E5CE24F3B66600C4D54A /* Sources */,
+				F266E5CF24F3B66600C4D54A /* Frameworks */,
+				F266E5D024F3B66600C4D54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F266E5D424F3B66600C4D54A /* PBXTargetDependency */,
+			);
+			name = SonarCloudDemoUITests;
+			productName = SonarCloudDemoUITests;
+			productReference = F266E5D224F3B66600C4D54A /* SonarCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F266E5A924F3B66400C4D54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = stibits;
+				TargetAttributes = {
+					F266E5B024F3B66400C4D54A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F266E5C624F3B66600C4D54A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F266E5B024F3B66400C4D54A;
+					};
+					F266E5D124F3B66600C4D54A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F266E5B024F3B66400C4D54A;
+					};
+				};
+			};
+			buildConfigurationList = F266E5AC24F3B66400C4D54A /* Build configuration list for PBXProject "SonarCloudDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F266E5A824F3B66400C4D54A;
+			productRefGroup = F266E5B224F3B66400C4D54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F266E5B024F3B66400C4D54A /* SonarCloudDemo */,
+				F266E5C624F3B66600C4D54A /* SonarCloudDemoTests */,
+				F266E5D124F3B66600C4D54A /* SonarCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F266E5AF24F3B66400C4D54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F266E5C124F3B66600C4D54A /* LaunchScreen.storyboard in Resources */,
+				F266E5BE24F3B66600C4D54A /* Assets.xcassets in Resources */,
+				F266E5BC24F3B66400C4D54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5C524F3B66600C4D54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5D024F3B66600C4D54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F266E5AD24F3B66400C4D54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F266E5B924F3B66400C4D54A /* ViewController.swift in Sources */,
+				F266E5B524F3B66400C4D54A /* AppDelegate.swift in Sources */,
+				F266E5B724F3B66400C4D54A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5C324F3B66600C4D54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F266E5CC24F3B66600C4D54A /* SonarCloudDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F266E5CE24F3B66600C4D54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F266E5D724F3B66600C4D54A /* SonarCloudDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F266E5C924F3B66600C4D54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F266E5B024F3B66400C4D54A /* SonarCloudDemo */;
+			targetProxy = F266E5C824F3B66600C4D54A /* PBXContainerItemProxy */;
+		};
+		F266E5D424F3B66600C4D54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F266E5B024F3B66400C4D54A /* SonarCloudDemo */;
+			targetProxy = F266E5D324F3B66600C4D54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F266E5BA24F3B66400C4D54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F266E5BB24F3B66400C4D54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F266E5BF24F3B66600C4D54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F266E5C024F3B66600C4D54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F266E5D924F3B66600C4D54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F266E5DA24F3B66600C4D54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F266E5DC24F3B66600C4D54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F266E5DD24F3B66600C4D54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F266E5DF24F3B66600C4D54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarCloudDemo.app/SonarCloudDemo";
+			};
+			name = Debug;
+		};
+		F266E5E024F3B66600C4D54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonarCloudDemo.app/SonarCloudDemo";
+			};
+			name = Release;
+		};
+		F266E5E224F3B66600C4D54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarCloudDemo;
+			};
+			name = Debug;
+		};
+		F266E5E324F3B66600C4D54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SonarCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tami.SonarCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonarCloudDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F266E5AC24F3B66400C4D54A /* Build configuration list for PBXProject "SonarCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F266E5D924F3B66600C4D54A /* Debug */,
+				F266E5DA24F3B66600C4D54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F266E5DB24F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F266E5DC24F3B66600C4D54A /* Debug */,
+				F266E5DD24F3B66600C4D54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F266E5DE24F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F266E5DF24F3B66600C4D54A /* Debug */,
+				F266E5E024F3B66600C4D54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F266E5E124F3B66600C4D54A /* Build configuration list for PBXNativeTarget "SonarCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F266E5E224F3B66600C4D54A /* Debug */,
+				F266E5E324F3B66600C4D54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F266E5A924F3B66400C4D54A /* Project object */;
+}
